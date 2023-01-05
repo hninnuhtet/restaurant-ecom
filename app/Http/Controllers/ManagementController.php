@@ -49,12 +49,30 @@ class ManagementController extends Controller
     
     // Order History
     public function history(){
-        $orders = Order::all();
-        // $quantities = OrderDetail::pluck('quantity')->toArray();
-        // dd($quantities);
-        return view('admin.management.history',['orders'=>$orders]);
+        // $orders = Order::all();
+        // // $quantities = OrderDetail::pluck('quantity')->toArray();
+        // // dd($quantities);
+        // return view('admin.management.history',['orders'=>$orders]);
 
-    }       
+        return view('admin.management.history');
+    }
+    
+    public function fetch_data(Request $request)
+    {
+        if($request->ajax())
+        {
+            if($request->from_date != '' && $request->to_date != '')
+            {
+                $data = Order::whereBetween('created_at', array($request->from_date, $request->to_date))->get();            
+            }
+            else
+            {
+                $data = Order::all();
+            }
+            echo json_encode($data);
+        }
+    }
+   
 
     public function his_show($id)
     {

@@ -39,6 +39,7 @@ Route::group(['middleware' => ['auth'], 'prefix' => '/admin/orderManagement', 'a
 
 Route::group(['middleware' => ['auth'], 'prefix' => '/admin/orderHistory', 'as' => 'admin.orderHistory.'], function () {    
     Route::get('/history',[ManagementController::class, 'history'])->name('history');
+    Route::post('/history/fetch_data', [ManagementController::class, 'fetch_data'])->name('history.fetch_data');
     Route::get('/show/{id}', [ManagementController::class, 'his_show'])->name('show');
     Route::get('/delete/{id}', [ManagementController::class, 'his_destroy'])->name('delete');
 });
