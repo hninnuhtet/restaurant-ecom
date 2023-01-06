@@ -14,3 +14,20 @@
 - Order history within the desired period can be viewed.
 - New features will be edited soon.
 
+
+## Screenshots
+![image](https://github.com/hninnuhtet/restaurant-ecom/blob/main/screenshots/1.PNG)
+![image](https://github.com/hninnuhtet/restaurant-ecom/blob/main/screenshots/2.PNG)
+![image](https://github.com/hninnuhtet/restaurant-ecom/blob/main/screenshots/3.PNG)
+![image](https://github.com/hninnuhtet/restaurant-ecom/blob/main/screenshots/4.PNG)
+![image](https://github.com/hninnuhtet/restaurant-ecom/blob/main/screenshots/5.PNG)
+![image](https://github.com/hninnuhtet/restaurant-ecom/blob/main/screenshots/6.PNG)
+![image](https://github.com/hninnuhtet/restaurant-ecom/blob/main/screenshots/7.PNG)
+![image](https://github.com/hninnuhtet/restaurant-ecom/blob/main/screenshots/8.PNG)
+![image](https://github.com/hninnuhtet/restaurant-ecom/blob/main/screenshots/9.PNG)
+![image](https://github.com/hninnuhtet/restaurant-ecom/blob/main/screenshots/10.PNG)
+
+
+
+
+
