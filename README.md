@@ -13,7 +13,7 @@
 - Order information with respective customer data can be stored.
 - Order history within the desired period can be viewed.
 
-*** New features will be added soon. *** 
+***New features will be added soon.*** 
 
 ## Screenshots
 ![image](https://github.com/hninnuhtet/restaurant-ecom/blob/main/screenshots/1.PNG)
